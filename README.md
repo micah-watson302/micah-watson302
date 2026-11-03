@@ -23,6 +23,18 @@ Not interested in demo-ware. Interested in systems that survive real users, mess
   <img height="170" src="https://github-readme-stats-anuraghazra1.vercel.app/api/top-langs/?username=micah-watson302&layout=compact&hide_border=true&bg_color=0A0A0A&title_color=B6FF3B&text_color=EAEAEA&langs_count=8&cache_seconds=60&v=20261103a" alt="Top languages" />
 </p>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/micah-watson302/micah-watson302/master/assets/commits-by-year.svg?v=1" width="900" alt="Commits by year" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/micah-watson302/micah-watson302/master/assets/commits-recent.svg?v=1" width="900" alt="Recent monthly commits" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/micah-watson302/micah-watson302/master/assets/commits-by-weekday.svg?v=1" width="900" alt="Commits by weekday" />
+</p>
+
 ### day to day
 
 | I spend time on | I avoid |
