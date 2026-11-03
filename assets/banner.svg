@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Micah Watson">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07090d"/>
+      <stop offset="45%" stop-color="#0c1218"/>
+      <stop offset="100%" stop-color="#101820"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#d4a24c"/>
+      <stop offset="100%" stop-color="#f0d29a"/>
+    </linearGradient>
+    <linearGradient id="gridFade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7dd3c7" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#7dd3c7" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#1c2a36" stroke-width="1"/>
+    </pattern>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="18" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="360" fill="url(#bg)"/>
+  <rect width="1200" height="360" fill="url(#grid)" opacity="0.55"/>
+  <rect x="0" y="0" width="1200" height="140" fill="url(#gridFade)"/>
+
+  <!-- architectural frame -->
+  <path d="M48 48h180M48 48v70" stroke="#d4a24c" stroke-width="1.5" opacity="0.85"/>
+  <path d="M1152 312h-180M1152 312v-70" stroke="#7dd3c7" stroke-width="1.5" opacity="0.7"/>
+
+  <!-- soft accent orbs -->
+  <circle cx="980" cy="90" r="90" fill="#d4a24c" opacity="0.08" filter="url(#soft)"/>
+  <circle cx="1080" cy="220" r="70" fill="#7dd3c7" opacity="0.07" filter="url(#soft)"/>
+
+  <!-- status chip -->
+  <rect x="48" y="78" width="188" height="28" rx="4" fill="#121a22" stroke="#243140"/>
+  <circle cx="68" cy="92" r="4" fill="#3dd68c">
+    <animate attributeName="opacity" values="1;0.35;1" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+  <text x="82" y="97" fill="#9fb3c4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12">SYSTEMS ONLINE</text>
+
+  <text x="48" y="170" fill="#f5f7fa" font-family="Georgia, 'Times New Roman', serif" font-size="64" font-weight="700" letter-spacing="1.5">Micah Watson</text>
+  <text x="48" y="214" fill="url(#accent)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" letter-spacing="3">SOFTWARE ENGINEER  ·  PRODUCT SYSTEMS  ·  HIGH-LEVERAGE CODE</text>
+
+  <text x="48" y="268" fill="#7f94a8" font-family="ui-sans-serif, system-ui, Segoe UI, sans-serif" font-size="16">Building precise interfaces, resilient services, and calm engineering culture.</text>
+
+  <!-- metric pills -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12">
+    <rect x="48" y="298" width="142" height="26" rx="3" fill="#121a22" stroke="#243140"/>
+    <text x="62" y="315" fill="#7dd3c7">latency-aware</text>
+    <rect x="200" y="298" width="150" height="26" rx="3" fill="#121a22" stroke="#243140"/>
+    <text x="214" y="315" fill="#d4a24c">ship-obsessed</text>
+    <rect x="360" y="298" width="168" height="26" rx="3" fill="#121a22" stroke="#243140"/>
+    <text x="374" y="315" fill="#9fb3c4">detail-compulsive</text>
+  </g>
+</svg>
