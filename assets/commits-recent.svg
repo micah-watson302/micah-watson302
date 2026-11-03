@@ -1,14 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300">
   <rect width="900" height="300" fill="#0a0a0a"/>
   <text x="28" y="36" fill="#b6ff3b" font-family="Consolas, Monaco, monospace" font-size="16">recent monthly velocity</text>
-  <text x="28" y="58" fill="#666666" font-family="Consolas, Monaco, monospace" font-size="11">2025-01 ’ 2026-11 · commits / month</text>
-
-  <!-- 23 months, max 43 -> height 160 -->
+  <text x="28" y="58" fill="#666666" font-family="Consolas, Monaco, monospace" font-size="11">2025-01 to 2026-11 | commits / month</text>
   <g font-family="Consolas, Monaco, monospace" font-size="9" fill="#777777">
-    <!-- baseline -->
     <line x1="40" y1="250" x2="880" y2="250" stroke="#222222" stroke-width="1"/>
-
-    <!-- 2025 -->
     <rect x="48" y="198" width="28" height="52" fill="#b6ff3b" opacity="0.55"/><text x="62" y="268" text-anchor="middle">J</text>
     <rect x="84" y="202" width="28" height="48" fill="#b6ff3b" opacity="0.5"/><text x="98" y="268" text-anchor="middle">F</text>
     <rect x="120" y="161" width="28" height="89" fill="#b6ff3b" opacity="0.7"/><text x="134" y="268" text-anchor="middle">M</text>
@@ -21,8 +17,6 @@
     <rect x="372" y="127" width="28" height="123" fill="#b6ff3b" opacity="0.88"/><text x="386" y="268" text-anchor="middle">O</text>
     <rect x="408" y="157" width="28" height="93" fill="#b6ff3b" opacity="0.75"/><text x="422" y="268" text-anchor="middle">N</text>
     <rect x="444" y="176" width="28" height="74" fill="#b6ff3b" opacity="0.65"/><text x="458" y="268" text-anchor="middle">D</text>
-
-    <!-- 2026 -->
     <rect x="500" y="202" width="28" height="48" fill="#7dd3c7" opacity="0.7"/><text x="514" y="268" text-anchor="middle">J</text>
     <rect x="536" y="231" width="28" height="19" fill="#7dd3c7" opacity="0.45"/><text x="550" y="268" text-anchor="middle">F</text>
     <rect x="572" y="190" width="28" height="60" fill="#7dd3c7" opacity="0.65"/><text x="586" y="268" text-anchor="middle">M</text>
@@ -35,7 +29,6 @@
     <rect x="824" y="153" width="28" height="97" fill="#7dd3c7" opacity="0.8"/><text x="838" y="268" text-anchor="middle">O</text>
     <rect x="860" y="239" width="28" height="11" fill="#7dd3c7" opacity="0.4"/><text x="874" y="268" text-anchor="middle">N</text>
   </g>
-
-  <text x="48" y="292" fill="#555555" font-family="Consolas, Monaco, monospace" font-size="10">lime = 2025 · teal = 2026</text>
-  <text x="700" y="52" fill="#b6ff3b" font-family="Consolas, Monaco, monospace" font-size="11">peak Apr 2025 · 43</text>
+  <text x="48" y="292" fill="#555555" font-family="Consolas, Monaco, monospace" font-size="10">lime = 2025 | teal = 2026</text>
+  <text x="700" y="52" fill="#b6ff3b" font-family="Consolas, Monaco, monospace" font-size="11">peak Apr 2025 | 43</text>
 </svg>

@@ -1,56 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="320" viewBox="0 0 900 320">
   <rect width="900" height="320" fill="#0a0a0a"/>
   <text x="28" y="36" fill="#b6ff3b" font-family="Consolas, Monaco, monospace" font-size="16">commits by year</text>
-  <text x="28" y="58" fill="#666666" font-family="Consolas, Monaco, monospace" font-size="11">source: contribution history · 2016 ’ 2026</text>
-
-  <!-- bars: max 313 -> height scale 180 -->
-  <!-- x starts 60, bar width 58, gap 14 -->
+  <text x="28" y="58" fill="#666666" font-family="Consolas, Monaco, monospace" font-size="11">source: contribution history | 2016-2026</text>
   <g font-family="Consolas, Monaco, monospace" font-size="11">
     <rect x="60" y="248" width="58" height="12" fill="#b6ff3b" opacity="0.35"/>
     <text x="89" y="238" text-anchor="middle" fill="#eaeaea">21</text>
     <text x="89" y="290" text-anchor="middle" fill="#777777">2016</text>
-
     <rect x="132" y="241" width="58" height="19" fill="#b6ff3b" opacity="0.4"/>
     <text x="161" y="231" text-anchor="middle" fill="#eaeaea">33</text>
     <text x="161" y="290" text-anchor="middle" fill="#777777">2017</text>
-
     <rect x="204" y="238" width="58" height="22" fill="#b6ff3b" opacity="0.45"/>
     <text x="233" y="228" text-anchor="middle" fill="#eaeaea">38</text>
     <text x="233" y="290" text-anchor="middle" fill="#777777">2018</text>
-
     <rect x="276" y="218" width="58" height="42" fill="#b6ff3b" opacity="0.55"/>
     <text x="305" y="208" text-anchor="middle" fill="#eaeaea">73</text>
     <text x="305" y="290" text-anchor="middle" fill="#777777">2019</text>
-
     <rect x="348" y="221" width="58" height="39" fill="#b6ff3b" opacity="0.5"/>
     <text x="377" y="211" text-anchor="middle" fill="#eaeaea">68</text>
     <text x="377" y="290" text-anchor="middle" fill="#777777">2020</text>
-
     <rect x="420" y="194" width="58" height="66" fill="#b6ff3b" opacity="0.65"/>
     <text x="449" y="184" text-anchor="middle" fill="#eaeaea">115</text>
     <text x="449" y="290" text-anchor="middle" fill="#777777">2021</text>
-
     <rect x="492" y="150" width="58" height="110" fill="#b6ff3b" opacity="0.75"/>
     <text x="521" y="140" text-anchor="middle" fill="#eaeaea">191</text>
     <text x="521" y="290" text-anchor="middle" fill="#777777">2022</text>
-
     <rect x="564" y="134" width="58" height="126" fill="#b6ff3b" opacity="0.8"/>
     <text x="593" y="124" text-anchor="middle" fill="#eaeaea">220</text>
     <text x="593" y="290" text-anchor="middle" fill="#777777">2023</text>
-
     <rect x="636" y="115" width="58" height="145" fill="#b6ff3b" opacity="0.88"/>
     <text x="665" y="105" text-anchor="middle" fill="#eaeaea">253</text>
     <text x="665" y="290" text-anchor="middle" fill="#777777">2024</text>
-
     <rect x="708" y="80" width="58" height="180" fill="#b6ff3b"/>
     <text x="737" y="70" text-anchor="middle" fill="#eaeaea">313</text>
     <text x="737" y="290" text-anchor="middle" fill="#777777">2025</text>
-
     <rect x="780" y="128" width="58" height="132" fill="#b6ff3b" opacity="0.85"/>
     <text x="809" y="118" text-anchor="middle" fill="#eaeaea">230</text>
     <text x="809" y="290" text-anchor="middle" fill="#777777">2026</text>
   </g>
-
   <line x1="50" y1="260" x2="860" y2="260" stroke="#222222" stroke-width="1"/>
-  <text x="28" y="312" fill="#555555" font-family="Consolas, Monaco, monospace" font-size="10">total tracked commits in history H 1555</text>
+  <text x="28" y="312" fill="#555555" font-family="Consolas, Monaco, monospace" font-size="10">total tracked commits in history ~ 1555</text>
 </svg>

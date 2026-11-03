@@ -24,15 +24,15 @@ Not interested in demo-ware. Interested in systems that survive real users, mess
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/micah-watson302/micah-watson302/master/assets/commits-by-year.svg?v=1" width="900" alt="Commits by year" />
+  <img src="https://raw.githubusercontent.com/micah-watson302/micah-watson302/master/assets/commits-by-year.svg?v=2" width="900" alt="Commits by year" />
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/micah-watson302/micah-watson302/master/assets/commits-recent.svg?v=1" width="900" alt="Recent monthly commits" />
+  <img src="https://raw.githubusercontent.com/micah-watson302/micah-watson302/master/assets/commits-recent.svg?v=2" width="900" alt="Recent monthly commits" />
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/micah-watson302/micah-watson302/master/assets/commits-by-weekday.svg?v=1" width="900" alt="Commits by weekday" />
+  <img src="https://raw.githubusercontent.com/micah-watson302/micah-watson302/master/assets/commits-by-weekday.svg?v=2" width="900" alt="Commits by weekday" />
 </p>
 
 ### day to day
