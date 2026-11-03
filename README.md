@@ -24,15 +24,37 @@ Not interested in demo-ware. Interested in systems that survive real users, mess
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/micah-watson302/micah-watson302/master/assets/commits-by-year.png?v=3" width="900" alt="Commits by year" />
+  <img src="https://raw.githubusercontent.com/micah-watson302/micah-watson302/master/assets/commits-by-year.gif?v=4" width="900" alt="Commits by year" />
+</p>
+<p align="center">
+  <sub>
+    <b>Yearly output</b> — how commit volume grew from early years to now.
+    Steady climb, not a flat line: more ownership, more shipping.
+  </sub>
 </p>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/micah-watson302/micah-watson302/master/assets/commits-recent.png?v=3" width="900" alt="Recent monthly commits" />
-</p>
+<br/>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/micah-watson302/micah-watson302/master/assets/commits-by-weekday.png?v=3" width="900" alt="Commits by weekday" />
+  <img src="https://raw.githubusercontent.com/micah-watson302/micah-watson302/master/assets/commits-recent.gif?v=4" width="900" alt="Recent monthly commits" />
+</p>
+<p align="center">
+  <sub>
+    <b>Monthly velocity</b> — last ~2 years, month by month.
+    Some quiet stretches, some hard pushes. Real cadence, not fake daily noise.
+  </sub>
+</p>
+
+<br/>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/micah-watson302/micah-watson302/master/assets/commits-by-weekday.gif?v=4" width="900" alt="Commits by weekday" />
+</p>
+<p align="center">
+  <sub>
+    <b>Weekday pattern</b> — most work lands Mon–Fri.
+    Weekends stay light on purpose.
+  </sub>
 </p>
 
 ### day to day
