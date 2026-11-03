@@ -14,13 +14,13 @@ Not interested in demo-ware. Interested in systems that survive real users, mess
 
 <p align="center">
   <a href="https://git.io/streak-stats">
-    <img src="https://streak-stats.demolab.com?user=micah-watson302&theme=dark&hide_border=true&background=0A0A0A&ring=B6FF3B&fire=B6FF3B&currStreakLabel=B6FF3B" alt="GitHub Streak" />
+    <img src="https://streak-stats.demolab.com?user=micah-watson302&theme=dark&hide_border=false&border_radius=4.5&locale=en&mode=daily&card_width=495&type=svg&cache_seconds=60&v=20261103a" alt="GitHub Streak" />
   </a>
 </p>
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats-anuraghazra1.vercel.app/api?username=micah-watson302&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0A0A0A&title_color=B6FF3B&icon_color=B6FF3B&text_color=EAEAEA&ring_color=B6FF3B" alt="GitHub stats" />
-  <img height="170" src="https://github-readme-stats-anuraghazra1.vercel.app/api/top-langs/?username=micah-watson302&layout=compact&hide_border=true&bg_color=0A0A0A&title_color=B6FF3B&text_color=EAEAEA&langs_count=8" alt="Top languages" />
+  <img height="170" src="https://github-readme-stats-anuraghazra1.vercel.app/api?username=micah-watson302&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0A0A0A&title_color=B6FF3B&icon_color=B6FF3B&text_color=EAEAEA&ring_color=B6FF3B&cache_seconds=60&v=20261103a" alt="GitHub stats" />
+  <img height="170" src="https://github-readme-stats-anuraghazra1.vercel.app/api/top-langs/?username=micah-watson302&layout=compact&hide_border=true&bg_color=0A0A0A&title_color=B6FF3B&text_color=EAEAEA&langs_count=8&cache_seconds=60&v=20261103a" alt="Top languages" />
 </p>
 
 ### day to day
