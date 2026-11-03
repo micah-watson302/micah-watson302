@@ -29,16 +29,38 @@ def ease(t: float) -> float:
     return t * t * (3 - 2 * t)
 
 
-def save_gif(frames, path: Path, duration=70):
+def strip_netscape_loop(path: Path):
+    """Remove NETSCAPE2.0 loop block so browsers play the GIF exactly once."""
+    data = bytearray(path.read_bytes())
+    marker = b"NETSCAPE2.0"
+    idx = data.find(marker)
+    if idx == -1:
+        return
+    # Application extension starts 3 bytes before the marker: 21 FF 0B
+    start = idx - 3
+    if start < 0 or data[start] != 0x21:
+        return
+    # block is 19 bytes: 21 FF 0B + 11-byte ID + 03 01 XX XX 00
+    end = start + 19
+    if end <= len(data):
+        del data[start:end]
+        path.write_bytes(data)
+
+
+def save_gif(frames, path: Path, duration=70, hold_last_ms=2500):
+    # Build once-through animation, then strip loop extension (no infinite repeat)
+    durations = [duration] * len(frames)
+    durations[-1] = hold_last_ms
     imgs = [Image.open(p).convert("P", palette=Image.ADAPTIVE) for p in frames]
     imgs[0].save(
         path,
         save_all=True,
         append_images=imgs[1:],
-        duration=duration,
-        loop=0,
+        duration=durations,
+        loop=1,
         optimize=True,
     )
+    strip_netscape_loop(path)
     for p in frames:
         p.unlink(missing_ok=True)
 
@@ -81,9 +103,9 @@ for i in range(n_frames):
     fig.savefig(fp, facecolor=bg, edgecolor="none")
     plt.close()
     frame_paths.append(fp)
-# hold last frame a bit longer by duplicating
-frame_paths.extend([frame_paths[-1]] * 8)
-save_gif(frame_paths, out / "commits-by-year.gif", duration=60)
+# freeze on completed chart (extra still frames + long final duration)
+frame_paths.extend([frame_paths[-1]] * 4)
+save_gif(frame_paths, out / "commits-by-year.gif", duration=55, hold_last_ms=4000)
 
 # ---------- recent months ----------
 labels = list("JFMAMJJASOND") + list("JFMAMJJASON")
@@ -131,8 +153,8 @@ for i in range(n_frames):
     fig.savefig(fp, facecolor=bg, edgecolor="none")
     plt.close()
     frame_paths.append(fp)
-frame_paths.extend([frame_paths[-1]] * 8)
-save_gif(frame_paths, out / "commits-recent.gif", duration=55)
+frame_paths.extend([frame_paths[-1]] * 4)
+save_gif(frame_paths, out / "commits-recent.gif", duration=50, hold_last_ms=4000)
 
 # ---------- weekdays ----------
 days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
@@ -168,8 +190,8 @@ for i in range(n_frames):
     fig.savefig(fp, facecolor=bg, edgecolor="none")
     plt.close()
     frame_paths.append(fp)
-frame_paths.extend([frame_paths[-1]] * 8)
-save_gif(frame_paths, out / "commits-by-weekday.gif", duration=60)
+frame_paths.extend([frame_paths[-1]] * 4)
+save_gif(frame_paths, out / "commits-by-weekday.gif", duration=55, hold_last_ms=4000)
 
 try:
     tmpdir.rmdir()

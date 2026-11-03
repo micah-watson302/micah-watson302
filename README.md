@@ -13,18 +13,20 @@ Not interested in demo-ware. Interested in systems that survive real users, mess
 ### charts
 
 <p align="center">
-  <a href="https://git.io/streak-stats">
-    <img src="https://streak-stats.demolab.com?user=micah-watson302&theme=dark&hide_border=false&border_radius=4.5&locale=en&mode=daily&card_width=495&type=svg&cache_seconds=60&v=20261103a" alt="GitHub Streak" />
+  <a href="https://git.io/streak-stats" title="Open streak stats demo">
+    <img src="https://streak-stats.demolab.com?user=micah-watson302&theme=dark&hide_border=false&border_radius=4.5&locale=en&mode=daily&card_width=495&type=svg&cache_seconds=60&v=20261103a" alt="GitHub Streak" title="Current coding streak across public + private contributions" />
   </a>
 </p>
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats-anuraghazra1.vercel.app/api?username=micah-watson302&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0A0A0A&title_color=B6FF3B&icon_color=B6FF3B&text_color=EAEAEA&ring_color=B6FF3B&cache_seconds=60&v=20261103a" alt="GitHub stats" />
-  <img height="170" src="https://github-readme-stats-anuraghazra1.vercel.app/api/top-langs/?username=micah-watson302&layout=compact&hide_border=true&bg_color=0A0A0A&title_color=B6FF3B&text_color=EAEAEA&langs_count=8&cache_seconds=60&v=20261103a" alt="Top languages" />
+  <img height="170" src="https://github-readme-stats-anuraghazra1.vercel.app/api?username=micah-watson302&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0A0A0A&title_color=B6FF3B&icon_color=B6FF3B&text_color=EAEAEA&ring_color=B6FF3B&cache_seconds=60&v=20261103a" alt="GitHub stats" title="Overall GitHub stats including private commits" />
+  <img height="170" src="https://github-readme-stats-anuraghazra1.vercel.app/api/top-langs/?username=micah-watson302&layout=compact&hide_border=true&bg_color=0A0A0A&title_color=B6FF3B&text_color=EAEAEA&langs_count=8&cache_seconds=60&v=20261103a" alt="Top languages" title="Languages that show up most in recent work" />
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/micah-watson302/micah-watson302/master/assets/commits-by-year.gif?v=4" width="900" alt="Commits by year" />
+  <a href="https://raw.githubusercontent.com/micah-watson302/micah-watson302/master/assets/commits-by-year.png" title="Full-size yearly chart — commits grew from early years to peak output">
+    <img src="https://raw.githubusercontent.com/micah-watson302/micah-watson302/master/assets/commits-by-year.gif?v=5" width="900" alt="Commits by year" title="Hover: yearly commit volume from 2016 to 2026. Animation plays once." />
+  </a>
 </p>
 <p align="center">
   <sub>
@@ -36,7 +38,9 @@ Not interested in demo-ware. Interested in systems that survive real users, mess
 <br/>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/micah-watson302/micah-watson302/master/assets/commits-recent.gif?v=4" width="900" alt="Recent monthly commits" />
+  <a href="https://raw.githubusercontent.com/micah-watson302/micah-watson302/master/assets/commits-recent.png" title="Full-size monthly chart — quiet months and hard-push months">
+    <img src="https://raw.githubusercontent.com/micah-watson302/micah-watson302/master/assets/commits-recent.gif?v=5" width="900" alt="Recent monthly commits" title="Hover: month-by-month shipping cadence for the last ~2 years. Animation plays once." />
+  </a>
 </p>
 <p align="center">
   <sub>
@@ -48,7 +52,9 @@ Not interested in demo-ware. Interested in systems that survive real users, mess
 <br/>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/micah-watson302/micah-watson302/master/assets/commits-by-weekday.gif?v=4" width="900" alt="Commits by weekday" />
+  <a href="https://raw.githubusercontent.com/micah-watson302/micah-watson302/master/assets/commits-by-weekday.png" title="Full-size weekday chart — weekday-heavy, weekend-light">
+    <img src="https://raw.githubusercontent.com/micah-watson302/micah-watson302/master/assets/commits-by-weekday.gif?v=5" width="900" alt="Commits by weekday" title="Hover: most commits land Mon-Fri; weekends stay intentionally light. Animation plays once." />
+  </a>
 </p>
 <p align="center">
   <sub>
@@ -73,6 +79,6 @@ Not interested in demo-ware. Interested in systems that survive real users, mess
 ### find me
 
 <p>
-  <a href="mailto:micahwatson302@gmail.com"><img src="https://img.shields.io/badge/email-micahwatson302%40gmail.com-0a0a0a?style=flat-square&logo=gmail&logoColor=b6ff3b" alt="email" /></a>
-  <a href="https://github.com/micah-watson302"><img src="https://img.shields.io/badge/github-micah--watson302-0a0a0a?style=flat-square&logo=github&logoColor=white" alt="github" /></a>
+  <a href="mailto:micahwatson302@gmail.com" title="Email Micah"><img src="https://img.shields.io/badge/email-micahwatson302%40gmail.com-0a0a0a?style=flat-square&logo=gmail&logoColor=b6ff3b" alt="email" /></a>
+  <a href="https://github.com/micah-watson302" title="Open GitHub profile"><img src="https://img.shields.io/badge/github-micah--watson302-0a0a0a?style=flat-square&logo=github&logoColor=white" alt="github" /></a>
 </p>
